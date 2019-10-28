@@ -1,0 +1,491 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Livvic", sans-serif;
+  color: black;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*---------------------------Inicio Header----------------------------*/
+.top {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.top__logo {
+  width: 30%;
+}
+
+.top__logo img {
+  align-self: flex-start;
+  width: 150px;
+  max-width: 90%;
+}
+
+nav {
+  width: 70%;
+  align-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu__item {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.menu__item a {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.menu__icon{
+  display: none;
+  width: 30px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover{
+  font-weight: bold;
+}
+
+.menu__item img {
+  width: 40px;
+}
+
+/*---------------------------Inicio Banner e Introducción----------------------------*/
+.textBlock {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.mainText {
+  width: 50%;
+}
+
+.mainText__title {
+  font-size: 40px;
+  max-width: 100%;
+}
+
+.mainText__subtitle {
+  width: 85%;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 40px 0;
+}
+
+.mainImage {
+  width: 50%;
+}
+
+.mainImage img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.scroll {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.scroll__img {
+  transition: transform 0.3s ease-out;
+}
+
+.scroll__img:hover {
+  transform: translateY(10px);
+}
+
+/*---------------------------Inicio Secciones----------------------------*/
+.description {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 100px 0;
+  justify-content: space-between;
+}
+
+.component {
+  width: 30%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.component__image {
+  max-width: 100%;
+}
+
+.component__title {
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+.component__text {
+  width: 90%;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* ----------------- Bamboo Paper ------------------ */
+.textBlock--paper {
+  padding: 80px 0;
+}
+
+.mainText__range {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 80%;
+  outline: none;
+}
+
+.mainText__range::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: rgb(59, 173, 227);
+  background: linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(223, 8, 57, 1) 100%);
+  height: 5px;
+}
+
+.mainText__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 3px solid rgb(59, 173, 227);
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  position: relative;
+  bottom: 11px;
+  background-color: white;
+  cursor: -webkit-grab;
+}
+
+/* ----------------------- Gallery ------------------------ */
+.gallery {
+  overflow: hidden;
+  width: 100%;
+}
+
+.gallery__tape {
+  width: fit-content;
+  display: flex;
+  flex-flow: row;
+  transform: translate(-80vw,0);
+  transition: transform .3s ease-in-out;
+}
+
+.gallery__tape--inactive {
+  transition: none;
+}
+
+.gallery__item {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  height: 510px;
+}
+
+.gallery_image {
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 40vh;
+  z-index: 5;
+}
+
+.gallery__button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.gallery__button:focus {
+  outline: none;
+}
+
+.btnL {
+  max-width: 80%;
+}
+
+.btnR {
+  max-width: 80%;
+}
+
+
+
+/* --------------------- Specifications ------------- */
+.textBlock--charact {
+  background-color: #1A1D22;
+  padding: 70px;
+}
+
+.mainText__title--Specify {
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.table__item {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid rgb(176, 176, 176);
+}
+
+.left {
+  width: 40%;
+  text-align: left;
+  font-weight: 400;
+  color: rgb(176, 176, 176);
+}
+
+.right {
+  width: 60%;
+  text-align: right;
+  font-weight: 300;
+  color: rgb(176, 176, 176);
+}
+
+/* ------------------------------ Ads ------------------------- */
+.otherProduct {
+  padding: 80px 0;
+}
+
+.mainText__title--ads {
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.title {
+  padding-bottom: 30px;
+}
+
+/* ------------------------- Subscribe -------------------- */
+.subscribe {
+  background-color: #1A1D22;
+  padding: 100px 0;
+}
+
+.subscribe__content {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.subscribe__title {
+  color: white;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.insertText {
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 10px 50px;
+  width: 80%;
+}
+
+.insertText::placeholder {
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+.subscribe__button {
+  background-color: #444DA0;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 40px;
+}
+
+/* ------------------------------ Footer -------------------------------*/
+.theEnd {
+  display: flex;
+  flex-flow: column wrap;
+  padding-top: 50px;
+}
+
+.logoFooter {
+  padding-bottom: 40px;
+}
+
+.textBlock--footer {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.social__item {
+  padding: 0 20px;
+}
+
+.theEnd__copyright {
+  align-self: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+/*---------------------------Intento de Media Query----------------------------*/
+@media screen and (max-width: 600px) {
+
+  body{
+    width: 90%;
+  }
+
+  .top{
+    flex-flow: column nowrap;
+  }
+
+  nav{
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .menu{
+    justify-content:  space-between;
+  }
+
+  .menu__item{
+    padding: 0 15px 10px 15px;
+  }
+
+  .menu__item a{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .item__img{
+    max-width: 35px;
+    position: absolute;
+    top: 47px;
+    right: 9vw;
+  }
+
+  .textBlock {
+    flex-flow: column wrap;
+    align-content: center;
+  }
+
+  .mainText {
+    width: 100%;
+  }
+
+  .mainText__title{
+    font-size: 30px;
+  }
+
+  .mainText__subtitle {
+    width: 100%;
+  }
+
+  .mainImage {
+    width: 100%;
+  }
+
+  .description {
+    align-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 40px 0;
+  }
+
+  .component {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .component__image{
+    width: 70%;
+  }
+
+  .textBlock--paper{
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .mainText__range{
+    padding-bottom: 20px;
+  }
+
+  .gallery__item{
+    height: 200px;
+  }
+
+  .buttons{
+    top: 18vh;
+  }
+
+  .textBlock--charact {
+    padding: 30px;
+  }
+
+  .table__item{
+    flex-flow: column;
+  }
+
+  .right{
+    width: 100%;
+  }
+
+  .left{
+    width: 100%;
+  }
+
+  .subscribe{
+    padding: 40px 0;
+  }
+
+  .subscribe__title{
+    text-align: center;
+  }
+
+  .insertText{
+    padding: 10px 15px;
+  }
+
+  .logoFooter{
+    width: 60%;
+    padding: 0;
+  }
+
+  .interestLinks{
+    padding: 20px 0;
+  }
+
+  .theEnd__copyright{
+    padding: 20px 0;
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Wacom Cintiq Pro 16",
+    "price": 620,
+    "type": "tableta",
+    "stock": "disponible"
+}
+
+{
+    "name": "Wacom Grid Pen",
+    "price": 81,
+    "type": "stylus",
+    "stock": "no disponible"
+}
+
+{
+    "name": "Wacom 3-1 Cable",
+    "price": 50,
+    "type": "accesorios",
+    "stock": "disponible"
+}
+

@@ -1,0 +1,25 @@
+/* ------ Checkout */
+.mainText__title {
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+.checkout {
+  width: 100%;
+}
+
+.checkout__title {
+  font-size: 22px;
+  color: grey;
+  padding-top: 40px;
+}
+
+.checkout__title--item {
+  width: 50%;
+}
+
+.checkout__title--price {
+  width: 16%;
+  text-align: center;
+}
+/*# sourceMappingURL=store.css.map */

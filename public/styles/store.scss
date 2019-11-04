@@ -22,6 +22,36 @@
             text-align: center;
         }
     }
+
+    &__products{
+        padding: 40px 0px;
+        font-size: 18px;
+        border-bottom: 1px solid gray;
+    }
+}
+
+.payment{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+
+}
+
+.buttonPay{
+    cursor: pointer;
+    background-color: #444DA0;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 40px;
+
+    &--shopping{
+        background-color: #DEDEDE;
+        color: #494949;
+        margin-right: 15px;
+    }
 }
 
 .banner{

@@ -1,21 +1,242 @@
 {
-    "name": "Wacom Cintiq Pro 16",
-    "price": 620,
-    "type": "tableta",
-    "stock": "disponible"
-}
+    "name": "Wacom Cintiq Pro 13",
+    "price": 915,
+    "type": "Monitor Interactivo",
+    "stock": "Disponible",
+    "description": "Pensada para diseñadores y artistas profesionales que desean añadir a su Mac o PC una experiencia creativa de lápiz sobre pantalla de primera clase, la Cintiq Pro de Wacom incluye el conjunto de funciones más potentes de Wacom en dos nuevos monitores interactivos creativos de alto rendimiento.",
+    "images": [
+        "/img/products/cintiq-13_0.jpg",
+        "/img/products/cintiq-13_1.jpg"
+    ]
+},
 
 {
-    "name": "Wacom Grid Pen",
+    "name": "Wacom Cintiq 22HD",
+    "price": 1260,
+    "type": "Monitor Interactivo",
+    "stock": "No disponible",
+    "description": "Trabaje directamente en la pantalla. Siguiendo los pasos de la popular línea de las Cintiq de gran tamaño de Wacom, la nueva Cintiq 22HD incorpora una pantalla de 21,5'' de alta definición. Las características de productividad adicionales, como las ExpressKeys y los Touch Rings, aceleran los flujos de trabajo creativo.",
+    "images": [
+        "/img/products/cintiq-22_0.jpg",
+        "/img/products/cintiq-22_1.jpg"
+    ]
+},
+
+{
+    "name": "Wacom Cintiq Pro 24",
+    "price": 2196,
+    "type": "Monitor Interactivo",
+    "stock": "Disponible",
+    "description": "Las Wacom Cintiq Pro 24 son monitores interactivos creativos avanzados, diseñados para potenciar cualquier logro creativo
+    Se trata de nuestro mayor monitor interactivo hasta la fecha.Con las mismas capacidades, la Cintiq Pro 24 (dos modelos: monitor interactivo y monitor interactivo y táctil) ocupa menos espacio. También puedes decantarte por los monitores interactivos de alta resolución 13 o 16, con un tamaño más compacto.",
+    "images": [
+        "/img/products/cintiq-24_0.jpg",
+        "/img/products/cintiq-24_1.jpg"
+    ]
+},
+
+{
+    "name": "Wacom Intuos M Bluetooth",
+    "price": 203,
+    "type": "Tablet",
+    "stock": "Disponible",
+    "description": "Wacom Intuos es una pen tablet diseñada con tu pasión en mente, que te proporcionará todas las herramientas necesarias para potenciar tu creatividad. Además, con su versatilidad y facilidad de uso, podrás personalizar tu Wacom Intuos para adaptarla a tu método de trabajo. Tanto si adoras dibujar manga, como pintar en acuarela digital o retocar tus fotos, podrás ajustar tu pen tablet a tu propio método y estilo.",
+    "images": [
+        "/img/products/intuos-M_0.jpg",
+        "/img/products/intuos-M_1.jpg"
+    ]
+},
+
+{
+    "name": "Wacom Intuos S Bluetooth",
     "price": 81,
-    "type": "stylus",
-    "stock": "no disponible"
-}
+    "type": "Tablet",
+    "stock": "Disponible",
+    "description": "Wacom Intuos te ayuda a encontrar nuevas formas de crear. Diseñada para aquellos que se estrenan en el arte del dibujo, la pintura o la edición fotográfica en su Mac o PC, Wacom Intuos es fácil de configurar y usar, e incluye hasta tres aplicaciones creativas únicas para que hagas tus primeros pinitos.",
+    "images": [
+        "/img/products/intuos-S_0.jpg",
+        "/img/products/intuos-S_1.jpg"
+    ]
+},
 
 {
-    "name": "Wacom 3-1 Cable",
+    "name": "Wacom Intuos Art S",
     "price": 50,
-    "type": "accesorios",
-    "stock": "disponible"
-}
+    "type": "Tablet",
+    "stock": "Disponible",
+    "description": "Deja que tu genio creativo juegue con la nueva Intuos Art. Incluye la tecnología de tableta táctil y lápiz líder de Wacom, software creativo descargable gratuito y cursos de formación en línea. Independientemente de que tu sueño sea pulir tus habilidades, acumular algunos ‘Me gusta’ o diseñar una camiseta imprescindible, Intuos Art tiene todo lo que necesitas para crear increíbles dibujos digitales.",
+    "images": [
+        "/img/products/art-S_0.jpg",
+        "/img/products/art-S_1.jpg"
+    ]
+},
 
+{
+    "name": "Wacom Intuos Photo S",
+    "price": 81,
+    "type": "Tablet",
+    "stock": "No disponible",
+    "description": "Tus imágenes cuentan historias. Embellece tu historia con Intuos Photo. Perfecciona tus imágenes para imprimirlas, supera tus límites creativos y comparte con familiares y amigos. Intuos Photo es la herramienta ideal para llevar tus imágenes al próximo nivel.",
+    "images": [
+        "/img/products/photo-S_0.jpg",
+        "/img/products/photo-S_1.jpg"
+    ]
+},
+
+// Hasta aquí iba la base de datos
+
+{
+    "name": "Wacom Intuos Pro S",
+    "price": 182,
+    "type": "Tablet",
+    "stock": "Disponible",
+    "description": "Esta tableta digitalizadora de tamaño pequeño es una herramienta perfecta para hacer bosquejos de tus ideas, pintar, retocar imágenes y crear con facilidad. La Intuos Professional Pen & Touch cuenta con una función multitáctil para que puedas navegar de manera intuitiva con solo la acción de tus dedos: desplázate, amplía, gira y navega con naturalidad con gestos preprogramados, o crea los tuyos propios",
+    "images": [
+        "/img/products/pro-S_0.jpg",
+        "/img/products/pro-S_1.jpg"
+    ]
+},
+
+{
+    "name": "One by Wacom M",
+    "price": 60,
+    "type": "Tablet",
+    "stock": "Disponible",
+    "description": "Tú y tu computadora en armonía creativa. Boceta, dibuja y edita fotos con una simple y excelente experiencia del lápiz. No podría ser más fácil.",
+    "images": [
+        "/img/products/one-M_0.jpg",
+        "/img/products/one-M_1.jpg"
+    ]
+},
+
+{
+    "name": "Bamboo Folio S",
+    "price": 152,
+    "type": "Tablet",
+    "stock": "Disponible",
+    "description": "Bamboo Folio es un smartpad que te permite escribir de forma natural con un bolígrafo en cualquier papel. Con tan solo pulsar un botón, convierte tus notas escritas a mano en archivos digitales 'vivos'. Con la aplicación Wacom Inkspace puedes organizar, editar y compartir tus notas y bosquejos en tu smartphone o tablet Android o iOS habilitados con Bluetooth®. No te preocupes si no tienes tu dispositivo móvil a mano. Puedes almacenar hasta 100 páginas en tu Bamboo Folio y sincronizar más tarde.",
+    "images": [
+        "/img/products/folio-S_0.jpg",
+        "/img/products/folio-S_1.jpg"
+    ]
+},
+
+{
+    "name": "Bamboo Folio S",
+    "price": 152,
+    "type": "Tablet",
+    "stock": "Disponible",
+    "description": "Bamboo Folio es un smartpad que te permite escribir de forma natural con un bolígrafo en cualquier papel. Con tan solo pulsar un botón, convierte tus notas escritas a mano en archivos digitales 'vivos'. Con la aplicación Wacom Inkspace puedes organizar, editar y compartir tus notas y bosquejos en tu smartphone o tablet Android o iOS habilitados con Bluetooth®. No te preocupes si no tienes tu dispositivo móvil a mano. Puedes almacenar hasta 100 páginas en tu Bamboo Folio y sincronizar más tarde.",
+    "images": [
+        "/img/products/folio-S_0.jpg",
+        "/img/products/folio-S_1.jpg"
+    ]
+},
+
+{
+    "name": "Bamboo Folio M",
+    "price": 203,
+    "type": "Tablet",
+    "stock": "No disponible",
+    "description": "Bamboo Folio es un smartpad que te permite escribir de forma natural con un bolígrafo en cualquier papel. Con tan solo pulsar un botón, convierte tus notas escritas a mano en archivos digitales 'vivos'. Con la aplicación Wacom Inkspace puedes organizar, editar y compartir tus notas y bosquejos en tu smartphone o tablet Android o iOS habilitados con Bluetooth®. No te preocupes si no tienes tu dispositivo móvil a mano. Puedes almacenar hasta 100 páginas en tu Bamboo Folio y sincronizar más tarde.",
+    "images": [
+        "/img/products/folio-S_0.jpg",
+        "/img/products/folio-S_1.jpg"
+    ]
+},
+
+{
+    "name": "Bamboo Alpha 2",
+    "price": 15,
+    "type": "Stylus",
+    "stock": "Disponible",
+    "description": "Bamboo® Stylus alpha es un lápiz digital económico que te permite escribir, hacer garabatos y navegar en el iPad y otras pantallas táctiles de una manera tan sencilla y natural como al hacerlo con un lápiz convencional sobre papel. La punta de goma receptiva y el cuerpo equilibrado con un acabado suave al tacto le confieren esa sensación tan natural",
+    "images": "/img/products/pen-alpha.jpg"
+},
+
+{
+    "name": "Bamboo Ink Plus",
+    "price": 101,
+    "type": "Stylus",
+    "stock": "No disponible",
+    "description": "Bamboo Ink Plus, un lápiz inteligente creado en torno a la idea de la autoexpresión, te permite tomar notas, dibujar y esbozar con la misma naturalidad que al hacerlo sobre un papel",
+    "images": [
+        "/img/products/pen-ink_0.jpg",
+        "/img/products/pen-ink-1.jpg"
+    ]
+},
+
+{
+    "name": "Bamboo Solo",
+    "price": 20,
+    "type": "Stylus",
+    "stock": "Disponible",
+    "description": "Bamboo Solo es un lápiz digital esencial que te permite escribir, dibujar y tocar suavemente en la pantalla táctil de tu tableta, teléfono inteligente o computadora. Su punta de fibra de carbono reemplazable te permite navegar y escribir de forma fluida en la pantalla táctil de tu tableta, teléfono inteligente o computadora.",
+    "images": [
+        "/img/products/pen-solo_0.jpg",
+        "/img/products/pen-solo_1.jpg"
+    ]
+},
+
+{
+    "name": "Bamboo Fineline",
+    "price": 71,
+    "type": "Stylus",
+    "stock": "Disponible",
+    "description": "Bamboo Fineline es un lápiz digital inteligente sensible a la presión, diseñado para permitir una escritura natural en dispositivos táctiles con sistema iOS. Resulta perfecto para la redacción de notas y escritura auténtica, así como para plasmar ideas, en tu dispositivo táctil con iOS. Bamboo Fineline también funciona con versiones anteriores de iPad con Bluetooth® integrado y iPhone 6 y posterior",
+    "images": "/img/products/pen-fineline_0.jpg"
+},
+
+{
+    "name": "Bamboo Sketch",
+    "price": 91,
+    "type": "Stylus",
+    "stock": "Disponible",
+    "description": "Bamboo Sketch es un lápiz digital de punta fina con el que podrás esbozar y desarrollar ideas en tu iPad o iPhone. Su punta fina, sensible a la presión, está específicamente diseñada para ofrecer una sensación natural, precisa y auténtica en dispositivos con iOS: como usar un lápiz en un bloc de dibujo en papel. Bamboo Sketch también es compatible con generaciones anteriores del iPad",
+    "images": [
+        "/img/products/pen-sketch_0.jpg",
+        "/img/products/pen-sketch_1.jpg"
+    ]
+},
+
+{
+    "name": "Adaptador AC para Cintiq 22HD",
+    "price": 72,
+    "type": "Accesorios",
+    "stock": "No disponible",
+    "description": "Fuente de alimentación para Cintiq 22HD (DTK2200) y Cintiq 22HD Touch (DTH2200)",
+    "images": "/img/products/acc-adaptador_0.jfif"
+},
+
+{
+    "name": "Cargador USB Bamboo Sketch",
+    "price": 15,
+    "type": "Accesorios",
+    "stock": "No disponible",
+    "description": "Conecta el adaptador de carga USB al puerto USB y engancha el Bamboo Sketch al conector magnético.",
+    "images": "/img/products/acc-usb_0.jpg"
+},
+
+{
+    "name": "Bloc de Notas A5",
+    "price": 15,
+    "type": "Accesorios",
+    "stock": "Disponible",
+    "description": "Este bloc de notas está diseñado a medida de la versión pequeña de Bamboo Folio, Bamboo Slate y también Bamboo Spark. Este paquete contiene 3 blocs de notas únicos con tapa en tamaño A5, cada uno con 40 páginas preperforadas. Los blocs de notas se introducen suavemente en el smartpad y permanecen en su sitio",
+    "images": [
+        "/img/products/acc-bloc_0.jpg",
+        "/img/products/acc-bloc_1.jpg"
+    ]
+},
+
+{
+    "name": "Funda protectora Wacom Grande",
+    "price": 50,
+    "type": "Accesorios",
+    "stock": "Disponible",
+    "description": "La funda protectora de Wacom de tamaño grande está diseñada para proteger. Con su completo acolchado y una composición de nailon duradera y resistente al agua, podrás tener la tranquilidad de tener siempre seguros y protegidos tu Wacom Intuos Pro, Cintiq Pro o MobileStudio Pro junto con sus accesorios. No solo ofrece espacio suficiente para guardar el portátil y el teclado, sino que, además, tiene compartimentos adicionales para tus lápices y cables. ¡Mantener todo bien organizado es ahora pan comido! Los elementos de cuero auténtico de la cremallera realzan su diseño minimalista y elegante",
+    "images": [
+        "/img/products/acc-funda_0.jpg",
+        "/img/products/acc-funda_1.jpg"
+    ]
+},

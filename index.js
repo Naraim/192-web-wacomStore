@@ -23,21 +23,29 @@ const dbName = 'Store';
 const client = new MongoClient(url);
 
 // conectar el cliente de mongo
-client.connect(function(err) {
+client.connect(`mongodb+srv://@cluster0-myyhx.mongodb.net/store`,
+    {
+        auth:{
+            user: 'Naraim',
+            password: 'NaraimCK123'
+        }
+    },
+    
+    
+    
+    function(err) {
     // asegurarnos de que no existe un error
     assert.equal(null, err);
 
     console.log('connected');
 
     // conectamos el cliente a la base de datos que necesitamos
-    const db = client.db(dbName);
+    const db = client.db('store');
 
   
     createRoutes(app, db);
 
-    app.listen(port, ()=>{
-        console.log(`Servidor iniciado en el puerto ${port}`);
-    });
+    app.listen( process.env.PORT || 1234);
 
 });
 

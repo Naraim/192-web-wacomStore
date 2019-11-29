@@ -70,15 +70,147 @@
     max-width: 100%;
 }
 
+.store{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+
+    &__filters{
+        width: 20%;
+    }
+
+    &__articles{
+        width: 80%;
+    }
+
+    &__products{
+        width: 100%;
+        background-color: #cfcfcf;
+        height: 100px;
+    }
+}
+
+.organize{
+    padding: 20px 0;
+    
+    &__filters{
+        // appearance: none;
+        color: grey;
+        border: none;
+        border-bottom: 1px solid rgb(70, 70, 70);
+        padding: 5px 10px;
+        outline: none;
+    }
+
+}
+
+.order{
+
+    &__option{
+        appearance: none;
+        margin: 10px 0;
+        background: white;
+        border: none;
+        border-bottom: 1px solid grey;
+
+        &:focus{
+            appearance: none;
+           color: grey;
+        }
+    }
+
+
+
+}
+
+
 .filters{
     display: flex;
     flex-flow: column wrap;
+    padding: 5px 0 20px 0;
+
+    &__item{
+        display: flex;
+        padding: 5px 0;
+        align-items: center;
+
+        &--range{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__box{
+        appearance: none;
+        border: 2px solid  #444DA0;
+        border-radius: 5px;
+        height: 15px;
+        width: 15px;
+        outline: none;
+        transition: 300ms ease-out;
+        margin-right: 10px;
+
+        &:checked{
+            background-color:  #444DA0;
+        }
+
+        &:active{
+            transform: scale(0.6)
+        }
+    }
+
+    &__range{
+        
+            appearance: none;
+            width: 100%;
+            outline: none;
+          
+          
+          &::-webkit-slider-runnable-track {
+            appearance: none;
+            background: #444DA0;
+            height: 5px;
+          }
+          
+          &::-webkit-slider-thumb {
+            appearance: none;
+            border: 3px solid #444DA0;
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+            position: relative;
+            bottom: 8px;
+            background-color: white;
+            cursor: -webkit-grab;
+          }
+    }
 }
 
-.textBlock--top{
+.minmax{
+    padding-top: 10px ;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-    align-items: flex-start;
 }
+
+// **************************** PRODUCTS CSS ********************************************
+
+.store{
+
+    &__item{
+        
+    }
+}
+
+.textBlock{
+
+    &--top{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
 
 .checkout{
     width: 55%;
@@ -112,6 +244,17 @@
         max-width: 100%;
         color: rgb(68, 68, 68);
     }
+
+    &--title2{
+        padding: 15px 0;
+        font-weight: 700;
+        font-size: 25px;
+        max-width: 100%;
+        color: rgb(48, 48, 48);
+        align-self: center;
+    }
+
+
 
     &--label{
         width: 70%;

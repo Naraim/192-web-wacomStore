@@ -1,4 +1,5 @@
 const assert = require("assert");
+const ObjectID = require('mongodb').ObjectID;
 
 function createRoutes( app, db){
     app.get("/", (request, response) =>{
@@ -23,6 +24,20 @@ function createRoutes( app, db){
 
     app.get("/producto", (request, response) =>{
         response.sendFile(`${__dirname}/public/product.html`);
+    });
+
+    app.get('/producto/:id', (request, response) => {
+        const products = db.collection('products');
+
+        products.find({ _id: new ObjectID(request.params.id)}).toArray((err, result) => {
+            assert.equal(null, err);
+
+            var context = {
+                product: result[0]
+            };
+
+            response.render('product', context);
+        });
     });
 
     app.get("/api/products", (request, response) =>{
@@ -55,4 +70,4 @@ function createRoutes( app, db){
     });
 }
 
-module.exports = createRoutes;
+    module.exports = createRoutes;

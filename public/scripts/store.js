@@ -14,6 +14,7 @@ function handleLoad(){
                 item.classList.add('item');
     
                 var link = document.createElement('a');
+                link.setAttribute('href', '/producto/'+element._id);
                 
                 var img = document.createElement('img');
                 img.classList.add('item__img');

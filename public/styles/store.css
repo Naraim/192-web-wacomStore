@@ -1,4 +1,4 @@
-/* ------ Checkout */
+/* ------ Shopping Car */
 .mainText__title {
   font-size: 30px;
   padding-top: 40px;
@@ -46,6 +46,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding: 0 0 50px 0;
 }
 
 .buttonPay {
@@ -82,5 +83,175 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
+}
+
+.textBlock--top {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.checkout {
+  width: 55%;
+  padding: 20px 0;
+}
+
+.summary {
+  width: 40%;
+  padding: 20px 0;
+}
+
+.summary__text {
+  padding: 20px 0;
+  border-bottom: 1px solid grey;
+}
+
+.summary__total {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  padding: 20px 0;
+}
+
+.text {
+  font-size: 18px;
+  padding: 10px 0;
+  color: #757575;
+}
+
+.text--title {
+  padding: 40px 0 20px 0;
+  font-weight: 700;
+  font-size: 20px;
+  max-width: 100%;
+  color: #444444;
+}
+
+.text--label {
+  width: 70%;
+}
+
+.text--price {
+  width: 30%;
+  text-align: right;
+}
+
+.text--totalLabel {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 700;
+  color: #444444;
+}
+
+.text--totalPrice {
+  width: 40%;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: right;
+  color: #444DA0;
+}
+
+.form {
+  max-width: 100%;
+}
+
+.form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 45%;
+  padding: 10px 0;
+}
+
+.form__column--email {
+  width: 90%;
+}
+
+.form__column--mid {
+  width: 60%;
+}
+
+.form__column--mini {
+  width: 30%;
+}
+
+.form__box {
+  border: 1px solid #8d8d8d;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px 30px;
+  color: grey;
+}
+
+.form__box:focus {
+  outline: none;
+  border: 1px solid #3a3a3a;
+}
+
+.form__box--email {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .shoppingCar__products {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+  .shoppingCar--show {
+    display: none;
+  }
+  .buttonPay {
+    border-radius: 10px;
+    padding: 10px 20px;
+  }
+  .checkout {
+    width: 100%;
+  }
+  .summary {
+    width: 100%;
+  }
+  .summary__item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+  }
+  .form__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    padding: 0;
+  }
+  .form__column {
+    padding: 0;
+    width: 100%;
+  }
+  .form__column--mini {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=store.css.map */

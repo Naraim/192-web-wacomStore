@@ -16,6 +16,10 @@ function createRoutes( app, db){
     app.get("/pagar", (request, response) =>{
         response.sendFile(`${__dirname}/public/checkout.html`);
     });
+
+    app.get("/exitoso", (request, response) =>{
+        response.sendFile(`${__dirname}/public/succesful.html`);
+    });
 }
 
 module.exports = createRoutes;

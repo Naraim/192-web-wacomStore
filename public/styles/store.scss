@@ -39,6 +39,7 @@
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
+    padding: 0 0 50px 0;
 
 }
 
@@ -72,5 +73,172 @@
 .filters{
     display: flex;
     flex-flow: column wrap;
+}
+
+.textBlock--top{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.checkout{
+    width: 55%;
+    padding: 20px 0;
+}
+
+.summary{
+    width: 40%;
+    padding: 20px 0;
+
+    &__text{
+        padding: 20px 0;
+        border-bottom: 1px solid grey;
+    }
+
+    &__total{
+        flex-flow: row;
+        padding: 20px 0;
+    }
+}
+
+.text{
+    font-size: 18px;
+    padding: 10px 0;
+    color: rgb(117, 117, 117);
+
+    &--title{
+        padding: 40px 0 20px 0;
+        font-weight: 700;
+        font-size: 20px;
+        max-width: 100%;
+        color: rgb(68, 68, 68);
+    }
+
+    &--label{
+        width: 70%;
+        
+    }
+
+    &--price{
+        width: 30%;
+        text-align: right;
+    }
+
+    &--totalLabel{
+        width: 60%;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(68, 68, 68);
+    }
+
+
+    &--totalPrice{
+        width: 40%;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: right;
+        color: #444DA0;
+    }
+}
+
+.form{
+
+    max-width: 100%;
+    
+
+    &__row{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    &__column{
+        display: flex;
+        flex-flow: column;
+        width: 45%;
+        padding: 10px 0;
+
+        &--email{
+            width: 90%;
+        }
+
+        &--mid{
+            width: 60%;
+        }
+
+        &--mini{
+            width: 30%;
+        }
+    }
+
+    &__box{
+        border: 1px solid #8d8d8d;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 5px 30px;
+        color: grey;
+
+        &:focus{
+        outline: none;
+        border: 1px solid #3a3a3a;
+        }
+
+        &--email{
+            width: 100%;
+        }
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .shoppingCar{
+
+        &__products{
+            flex-flow: row;
+        }
+
+
+        &--show{
+            display: none;
+        }
+
+    }
+    .buttonPay{
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+
+    .checkout{
+        width: 100%;
+    }
+    
+    .summary{
+        width: 100%;
+
+        &__item{
+            flex-flow: row;
+        }
+    }
+
+    .form{
+
+        &__row{
+            flex-flow: column;
+            padding: 0;
+        }
+    
+        &__column{
+            padding: 0;
+            width: 100%;
+
+            &--mini{
+                width: 50%; 
+            }
+        }
+
+}
+
 }
 

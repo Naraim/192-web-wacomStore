@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Livvic:300,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Livvic:300,400,500&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/img/icon.png" />
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/store.css">
@@ -33,21 +32,45 @@
   </div>
   <div class="textBlock">
     <div class="textBlock__filters">
-      <h3 class="title">Filtros</h3>
+      <h3 class="text text--title">Filtros</h3>
       <h4 class="subtitle">Tipo</h4>
       <div class="filters">
+          <input type="checkbox" class="filters__box" id="tablet">
         <label id="tablet" class="filters__label">Tablet</label>
-        <input type="checkbox" class="filters__box" id="tablet">
-        <label id="monitor" class="filters__label">Monitor Interactivo</label>
+        
         <input type="checkbox" class="filters__box" id="monitor">
-        <label id="accesorio" class="filters__label">Accesorios</label>
+        <label id="monitor" class="filters__label">Monitor Interactivo</label>
+
         <input type="checkbox" class="filters__box" id="accesorio">
-        <label id="stylus" class="filters__label">Pen Stylus</label>
+        <label id="accesorio" class="filters__label">Accesorios</label>
+
         <input type="checkbox" class="filters__box" id="stylus">
+        <label id="stylus" class="filters__label">Pen Stylus</label>
+      </div>
+      <h4 class="subtitle">Precio</h4>
+      <div class="filters">
+        <label id="price" class="filters__label">Precio</label>
+        <input type="range" value="2500" max="2500" min="0" id="price">
+        
+      </div>
+      <h4 class="subtitle">Tipo</h4>
+      <div class="filters">
+        <input type="checkbox" class="filters__box" id="stock">
+        <label id="stock" class="filters__label">Disponible</label> 
       </div>
     </div>
+  </div>
+  <div class="textBlock">
+    <div class="organize">
+        <select name="order">
+            <option value="az" selected>Alfabéticamente AZ</option> 
+            <option value="high" >Mayor a menor precio</option>
+            <option value="low">Menor a mayor precio</option>
+          </select>
+          <input type="search" placeholder="Escriba el nombre del producto">
+    </div>
     <div class="textBlock__products">
-
+      holi we, aquí van los productos
     </div>
   </div>
 </body>

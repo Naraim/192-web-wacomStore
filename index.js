@@ -18,7 +18,7 @@ app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const url = 'mongodb://localhost:27017';
+// const url = 'mongodb://localhost:27017';
 const dbName = 'Store';
 // const client = new MongoClient(url);
 
@@ -33,7 +33,7 @@ client.connect(`mongodb+srv://@cluster0-myyhx.mongodb.net/store`,
     
     
     
-    function(err) {
+    function(err, client) {
     // asegurarnos de que no existe un error
     assert.equal(null, err);
 

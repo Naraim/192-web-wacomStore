@@ -1,11 +1,11 @@
-/* ------ Checkout */
+/* ------ Shopping Car */
 
 .mainText__title{
     font-size: 30px;
     padding-top: 40px;
 }
 
-.checkout{
+.shoppingCar{
     width: 100%;
 
     &__title{
@@ -14,12 +14,17 @@
         padding-top: 40px;
     
         &--item{
-            width: 50%;
+            width: 40%;
         }
 
         &--price{
             width: 16%;
             text-align: center;
+        }
+        &--delete{
+            width: 8%;
+            text-align: center;
+            cursor: pointer;
         }
     }
 
@@ -46,11 +51,13 @@
     font-size: 18px;
     margin-top: 20px;
     padding: 10px 40px;
+    text-decoration: none;
 
     &--shopping{
         background-color: #DEDEDE;
         color: #494949;
         margin-right: 15px;
+        
     }
 }
 

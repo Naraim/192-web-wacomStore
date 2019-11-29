@@ -83,7 +83,6 @@
     ]
 },
 
-// Hasta aquí iba la base de datos
 
 {
     "name": "Wacom Intuos Pro S",
@@ -239,4 +238,4 @@
         "/img/products/acc-funda_0.jpg",
         "/img/products/acc-funda_1.jpg"
     ]
-},
+}

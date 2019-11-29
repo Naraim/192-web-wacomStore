@@ -10,6 +10,10 @@ function createRoutes( app, db){
     });
     
     app.get("/comprar", (request, response) =>{
+        response.sendFile(`${__dirname}/public/shoppingCar.html`);
+    });
+   
+    app.get("/pagar", (request, response) =>{
         response.sendFile(`${__dirname}/public/checkout.html`);
     });
 }

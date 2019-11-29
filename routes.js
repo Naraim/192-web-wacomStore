@@ -24,6 +24,35 @@ function createRoutes( app, db){
     app.get("/producto", (request, response) =>{
         response.sendFile(`${__dirname}/public/product.html`);
     });
+
+    app.get("/api/products", (request, response) =>{
+        const products = db.collection('products');
+       
+        var filters = {};
+        
+        if(request.query.price != undefined){
+            filters.price = {$lte: parseInt(request.query.price)};
+        }
+
+        if(Array.isArray(request.query.type)) {
+            filters.type = { $in: request.query.type };
+        } else if(request.query.type != undefined) {
+            filters.type = request.query.type;
+        }
+
+        if(request.query.stock != undefined) {
+            filters.stock = request.query.stock;
+        }
+        console.log(filters);
+
+        var cursor = products.find(filters);
+       
+       cursor.toArray((err, result) =>{
+            assert.equal(null, err);
+
+            response.send(result);
+        });
+    });
 }
 
 module.exports = createRoutes;

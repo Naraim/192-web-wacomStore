@@ -369,7 +369,24 @@
 
 @media screen and (max-width: 600px) {
 
+    .store{
 
+        &__articles{
+            width: 100%;
+        }
+
+        &__products{
+            width: 100%;
+        }
+
+
+
+        &__filters{
+            &--show{
+                display: none;
+            }
+        }
+    }
     .shoppingCar{
 
         &__products{

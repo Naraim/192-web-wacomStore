@@ -422,6 +422,15 @@
 }
 
 @media screen and (max-width: 600px) {
+  .store__articles {
+    width: 100%;
+  }
+  .store__products {
+    width: 100%;
+  }
+  .store__filters--show {
+    display: none;
+  }
   .shoppingCar__products {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

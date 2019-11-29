@@ -60,6 +60,16 @@
         margin-right: 15px;
         
     }
+
+    &--add{
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+
+    }
 }
 
 .banner{
@@ -84,9 +94,12 @@
     }
 
     &__products{
+        padding: 10px;
         width: 100%;
-        background-color: #cfcfcf;
-        height: 100px;
+        background-color: #ececec;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
     }
 }
 
@@ -127,7 +140,7 @@
 .filters{
     display: flex;
     flex-flow: column wrap;
-    padding: 5px 0 20px 0;
+    padding: 10px 20px 20px 0;
 
     &__item{
         display: flex;
@@ -196,11 +209,25 @@
 
 // **************************** PRODUCTS CSS ********************************************
 
-.store{
+.item{
+    background: white;
+    width: 28%;
+    margin: 10px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 10px 5px;
 
-    &__item{
-        
+    &__img{
+        max-width: 100%;
+        cursor: pointer;
     }
+
+    &__data{
+        display: flex;
+        justify-content: space-around;
+    }
+
 }
 
 .textBlock{
@@ -254,6 +281,14 @@
         align-self: center;
     }
 
+    &--storePrice{
+        color: #58AB04;
+        font-weight: 500;
+    }
+
+    &--storeName{
+        font-weight: 600;
+    }
 
 
     &--label{

@@ -1,3 +1,6 @@
-function handleLoad(){}
+function handleLoad(){
+
+    
+}
 
 window.addEventListener('load', handleLoad);

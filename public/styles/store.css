@@ -67,6 +67,15 @@
   margin-right: 15px;
 }
 
+.buttonPay--add {
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+}
+
 .banner {
   width: 100%;
 }
@@ -95,9 +104,18 @@
 }
 
 .store__products {
+  padding: 10px;
   width: 100%;
-  background-color: #cfcfcf;
-  height: 100px;
+  background-color: #ececec;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .organize {
@@ -137,7 +155,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  padding: 5px 0 20px 0;
+  padding: 10px 20px 20px 0;
 }
 
 .filters__item {
@@ -225,6 +243,36 @@
           justify-content: space-between;
 }
 
+.item {
+  background: white;
+  width: 28%;
+  margin: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 5px;
+}
+
+.item__img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.item__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .textBlock--top {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -280,6 +328,15 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.text--storePrice {
+  color: #58AB04;
+  font-weight: 500;
+}
+
+.text--storeName {
+  font-weight: 600;
 }
 
 .text--label {

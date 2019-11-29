@@ -23,7 +23,7 @@ const dbName = 'Store';
 // const client = new MongoClient(url);
 
 // conectar el cliente de mongo
-client.connect(`mongodb+srv://@cluster0-myyhx.mongodb.net/store`,
+MongoClient.connect(`mongodb+srv://@cluster0-myyhx.mongodb.net/store`,
     {
         auth:{
             user: 'Naraim',

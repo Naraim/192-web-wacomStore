@@ -20,7 +20,7 @@ app.use(express.static("public"));
 
 const url = 'mongodb://localhost:27017';
 const dbName = 'Store';
-const client = new MongoClient(url);
+// const client = new MongoClient(url);
 
 // conectar el cliente de mongo
 client.connect(`mongodb+srv://@cluster0-myyhx.mongodb.net/store`,
@@ -45,7 +45,7 @@ client.connect(`mongodb+srv://@cluster0-myyhx.mongodb.net/store`,
   
     createRoutes(app, db);
 
-    app.listen( process.env.PORT || 1234);
+    app.listen( process.env.PORT || 5000);
 
 });
 
